@@ -1,5 +1,7 @@
+import './style.css'
+
 export default function PlayerGame(content){
     return `
-        <p>${content}</p>
+        <p class="player-name">${content}</p>
     `
 }
